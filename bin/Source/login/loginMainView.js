@@ -64,6 +64,7 @@ loginMainView = class loginMainView extends AView
      onLoginBtnClick(comp, info, e)
     {
 
+        // 테스트중
         theApp.qm.sendProcessByName('ac003', this.getContainerId(), null,
 	
         //inblock function, 서버로 전송되기 바로 전에 호출되는 함수
