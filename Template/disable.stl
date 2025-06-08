@@ -1,0 +1,7 @@
+{
+  "styleName": "disable",
+  "items": {
+    "edit_here": "\r\n.edit_here\r\n{\r\n\t/* TODO:edit here */\r\n\r\n}\r\n",
+    "login-btn": ".login-btn\r\n{\r\n    background-color: #f6f6f6;\r\n    color: #d1d1d1;\r\n}\r\n\r\n"
+  }
+}

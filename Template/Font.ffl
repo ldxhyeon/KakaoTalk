@@ -1,0 +1,12 @@
+{
+  "styleName": "Font",
+  "items": {
+    "edit_here": "\r\n@font-face {\r\n\tfont-family: 'edit_here';\r\n\t\r\n\r\n}\r\n",
+    "KakaoBigSans-Bold": "@font-face {\r\n    font-family: 'KakaoBigSans-Bold';\r\n    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2503@1.0/KakaoBigSans-ExtraBold.woff2') format('woff2');\r\n    font-weight: 700;\r\n    font-style: normal;\r\n}",
+    "KakaoBigSans-Reqular": "@font-face {\r\n    font-family: 'KakaoBigSans-Reqular';\r\n    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2503@1.0/KakaoBigSans-ExtraBold.woff2') format('woff2');\r\n    font-weight: 400;\r\n    font-style: normal;\r\n}",
+    "KakaoBigSans-ExtraBold": "@font-face {\r\n    font-family: 'KakaoBigSans-ExtraBold';\r\n    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2503@1.0/KakaoBigSans-ExtraBold.woff2') format('woff2');\r\n    font-weight: 800;\r\n    font-style: normal;\r\n}",
+    "KakaoSmallSans-Reqular": "@font-face {\r\n    font-family: 'KakaoSmallSans-Reqular';\r\n    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2503@1.0/KakaoSmallSans-Bold.woff2') format('woff2');\r\n    font-weight: 300;\r\n    font-style: normal;\r\n}",
+    "KakaoSmallSans-Light": "@font-face {\r\n    font-family: 'KakaoSmallSans-Light';\r\n    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2503@1.0/KakaoSmallSans-Bold.woff2') format('woff2');\r\n    font-weight: 400;\r\n    font-style: normal;\r\n}",
+    "KakaoSmallSans-Bold": "@font-face {\r\n    font-family: 'KakaoSmallSans-Bold';\r\n    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2503@1.0/KakaoSmallSans-Bold.woff2') format('woff2');\r\n    font-weight: 700;\r\n    font-style: normal;\r\n}"
+  }
+}

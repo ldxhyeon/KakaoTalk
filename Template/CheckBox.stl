@@ -1,0 +1,7 @@
+{
+  "styleName": "CheckBox",
+  "items": {
+    "edit_here": "\r\n.edit_here\r\n{\r\n\t/* TODO:edit here */\r\n\r\n}\r\n",
+    "check-box": ".check-box\r\n{\r\n    background-image: url('Assets/image/ic_check_on.png');\r\n}\r\n\r\n"
+  }
+}
