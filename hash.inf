@@ -1,7 +1,5 @@
 {
-	"changed": [
-		"C:\\TraningProject\\KakaoTalk\\bin\\Source\\friend\\frienItemView.html"
-	],
+	"changed": [],
 	"version": "4.2.2",
 	"C:\\TraningProject\\KakaoTalk\\Framework\\afc\\library\\jquery-core.js": 1749423909587.668,
 	"C:\\TraningProject\\KakaoTalk\\Framework\\afc\\library\\jquery-ui.js": 1749423909600.3142,
@@ -258,7 +256,7 @@
 	"C:\\TraningProject\\KakaoTalk\\\\minus-solid2.svg": 1749448414294.7842,
 	"C:\\TraningProject\\KakaoTalk\\\\xmark-solid2.svg": 1749448398633.1663,
 	"C:\\TraningProject\\KakaoTalk\\Source\\frienItemView.js": 1749451159525.36,
-	"C:\\TraningProject\\KakaoTalk\\Source\\frienItemView.lay": 1749454840337.4373,
+	"C:\\TraningProject\\KakaoTalk\\Source\\frienItemView.lay": 1749455382623.1519,
 	"C:\\SpiderGen\\SpiderGen4\\resources\\app\\bin\\Runner\\SpiderServer\\..\\..\\Library\\RadioBtnManager.js": 1747187316000,
 	"C:\\TraningProject\\KakaoTalk\\\\magnifying-glass-solid.svg": 1749453619801.1985,
 	"C:\\TraningProject\\KakaoTalk\\\\add-friend.png": 1749453510431.4326
