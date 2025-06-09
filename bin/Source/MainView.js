@@ -53,11 +53,11 @@ MainView = class MainView extends AView
 	onTabClick(comp, info, e)
 	{
         
+        // 라디오 버튼
 		this.rbm.selectButton(comp);
 
+        // 탭 전환
         this.tabView.selectTabById(comp.getComponentId());
-
-        console.log(comp.getComponentId());
 
 	}
 }
