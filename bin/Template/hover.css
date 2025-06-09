@@ -47,3 +47,22 @@
     background-color: #FCFCFC !important;
 }
 
+.friend-list
+{
+}
+
+.friend-list:hover
+{
+    background-color: #F5F5F5 !important;
+}
+
+.friend-list.active
+{
+    background-color: #EDEDED !important;
+}
+
+
+.friend-list:active {
+  background-color: #EDEDED !important;
+}
+

@@ -1,5 +1,5 @@
 
-loginMainView = class loginMainView extends AView
+LoginMainView = class LoginMainView extends AView
 {
 	constructor()
 	{
@@ -114,6 +114,8 @@ loginMainView = class loginMainView extends AView
         // // 페이지 전환
         // navi.goPage('MainView');
     }
+
+    // test
 
 }
 

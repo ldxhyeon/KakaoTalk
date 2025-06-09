@@ -23,7 +23,9 @@ MainView = class MainView extends AView
 
 
         // 탭뷰 설정
-        this.tabView.addTab('친구', 'Source/friend/frienItemView.lay', 'friend');
+        this.tabView.addTab('친구', 'Source/friend/frienItemView.lay', 'friendTab');
+        this.tabView.addTab('채팅', 'Source/chatting/ChattingView.lay', 'chatTab');
+	    this.tabView.addTab('더보기', 'Source/chatting/ChattingView.lay', 'moreTab');
 
         this.tabView.selectTabById('friend').then(tab => {
 
@@ -51,8 +53,10 @@ MainView = class MainView extends AView
 	onTabClick(comp, info, e)
 	{
         
+        // 라디오 버튼
 		this.rbm.selectButton(comp);
 
+        // 탭 전환
         this.tabView.selectTabById(comp.getComponentId());
 
 	}

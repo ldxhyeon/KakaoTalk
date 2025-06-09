@@ -135,6 +135,14 @@
             "relType": 1,
             "path": "Source\\",
             "comment": ""
+          },
+          {
+            "type": 4,
+            "name": "Overflow.stl",
+            "action": 8,
+            "relType": 1,
+            "path": "Template\\",
+            "comment": ""
           }
         ]
       },
@@ -161,6 +169,130 @@
             "path": "\\"
           }
         ]
+      },
+      {
+        "type": 1,
+        "name": "Source",
+        "children": [
+          {
+            "type": 5,
+            "name": "KakaoTalkApp.js",
+            "relType": 1,
+            "path": "Source\\"
+          },
+          {
+            "type": 5,
+            "name": "MainView.js",
+            "relType": 1,
+            "path": "Source\\"
+          },
+          {
+            "type": 3,
+            "name": "MainView.lay",
+            "relType": 1,
+            "path": "Source\\"
+          },
+          {
+            "type": 1,
+            "name": "login",
+            "children": [
+              {
+                "type": 5,
+                "name": "LoginMainView.js",
+                "action": 9,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 3,
+                "name": "LoginMainView.lay",
+                "action": 6,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              }
+            ]
+          },
+          {
+            "type": 1,
+            "name": "friend",
+            "children": [
+              {
+                "type": 5,
+                "name": "FrienItemView.js",
+                "action": 9,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 3,
+                "name": "FrienItemView.lay",
+                "action": 6,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 5,
+                "name": "FriendListItem.js",
+                "action": 9,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 3,
+                "name": "FriendListItem.lay",
+                "action": 6,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              }
+            ]
+          },
+          {
+            "type": 1,
+            "name": "chatting",
+            "children": [
+              {
+                "type": 5,
+                "name": "ChattingView.js",
+                "action": 9,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 3,
+                "name": "ChattingView.lay",
+                "action": 6,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Resource",
+        "children": [
+          {
+            "type": 8,
+            "name": "common.json",
+            "relType": 1,
+            "path": "Resource\\"
+          }
+        ]
+      },
+      {
+        "type": 14,
+        "name": "index.html",
+        "relType": 1,
+        "path": ""
       },
       {
         "type": 1,
@@ -349,6 +481,24 @@
                 "name": "add-friend.png",
                 "relType": 1,
                 "path": "\\"
+              },
+              {
+                "type": 8,
+                "name": "myprofile.jpeg",
+                "relType": 1,
+                "path": "\\"
+              },
+              {
+                "type": 8,
+                "name": "chevron-right-solid.svg",
+                "relType": 1,
+                "path": "\\"
+              },
+              {
+                "type": 8,
+                "name": "defailt-profile.jpeg",
+                "relType": 1,
+                "path": "\\"
               }
             ]
           },
@@ -395,92 +545,6 @@
             ]
           }
         ]
-      },
-      {
-        "type": 1,
-        "name": "Source",
-        "children": [
-          {
-            "type": 5,
-            "name": "KakaoTalkApp.js",
-            "relType": 1,
-            "path": "Source\\"
-          },
-          {
-            "type": 5,
-            "name": "MainView.js",
-            "relType": 1,
-            "path": "Source\\"
-          },
-          {
-            "type": 3,
-            "name": "MainView.lay",
-            "relType": 1,
-            "path": "Source\\"
-          },
-          {
-            "type": 1,
-            "name": "login",
-            "children": [
-              {
-                "type": 5,
-                "name": "loginMainView.js",
-                "action": 9,
-                "relType": 1,
-                "path": "Source\\",
-                "comment": ""
-              },
-              {
-                "type": 3,
-                "name": "loginMainView.lay",
-                "action": 6,
-                "relType": 1,
-                "path": "Source\\",
-                "comment": ""
-              }
-            ]
-          },
-          {
-            "type": 1,
-            "name": "friend",
-            "children": [
-              {
-                "type": 5,
-                "name": "frienItemView.js",
-                "action": 9,
-                "relType": 1,
-                "path": "Source\\",
-                "comment": ""
-              },
-              {
-                "type": 3,
-                "name": "frienItemView.lay",
-                "action": 6,
-                "relType": 1,
-                "path": "Source\\",
-                "comment": ""
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": 1,
-        "name": "Resource",
-        "children": [
-          {
-            "type": 8,
-            "name": "common.json",
-            "relType": 1,
-            "path": "Resource\\"
-          }
-        ]
-      },
-      {
-        "type": 14,
-        "name": "index.html",
-        "relType": 1,
-        "path": ""
       }
     ]
   },

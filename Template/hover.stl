@@ -8,6 +8,7 @@
     "main-header-minus": ".main-header-minus\r\n{\r\n    background-image: url('Assets/image/minus-solid2.svg');\r\n}\r\n\r\n",
     "main-header-square": ".main-header-square\r\n{\r\n    background-image: url('Assets/image/square-regular2.svg');\r\n}\r\n\r\n",
     "main-header-cancle": ".main-header-cancle\r\n{\r\n    background-image: url('Assets/image/xmark-solid2.svg');\r\n}\r\n\r\n",
-    "friend-header-icon": ".friend-header-icon\r\n{\r\n}\r\n\r\n.friend-header-icon:hover\r\n{\r\n    background-color: #FCFCFC;\r\n}\r\n\r\n"
+    "friend-header-icon": ".friend-header-icon\r\n{\r\n}\r\n\r\n.friend-header-icon:hover\r\n{\r\n    background-color: #FCFCFC;\r\n}\r\n\r\n",
+    "friend-list": ".friend-list\r\n{\r\n}\r\n\r\n.friend-list:hover\r\n{\r\n    background-color: #F5F5F5;\r\n}\r\n\r\n.friend-list.active\r\n{\r\n    background-color: #EDEDED;\r\n}\r\n\r\n\r\n.friend-list:active {\r\n  background-color: #EDEDED;\r\n}\r\n\r\n"
   }
 }
