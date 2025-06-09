@@ -5,3 +5,45 @@
 
 }
 
+.side-user
+{
+    background-image: url('../Assets/image/user-solid2.svg') !important;
+    opacity: 0.6 !important;
+}
+
+.side-comment
+{
+    background-image: url('../Assets/image/comment-solid2.svg') !important;
+    opacity: 0.6 !important;
+}
+
+.side-ellipsis
+{
+    background-image: url('../Assets/image/ellipsis-solid2.svg') !important;
+    opacity: 0.6 !important;
+}
+
+.main-header-minus
+{
+    background-image: url('../Assets/image/minus-solid2.svg') !important;
+}
+
+.main-header-square
+{
+    background-image: url('../Assets/image/square-regular2.svg') !important;
+}
+
+.main-header-cancle
+{
+    background-image: url('../Assets/image/xmark-solid2.svg') !important;
+}
+
+.friend-header-icon
+{
+}
+
+.friend-header-icon:hover
+{
+    background-color: #FCFCFC !important;
+}
+

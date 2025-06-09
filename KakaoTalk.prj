@@ -77,6 +77,13 @@
             "action": 9,
             "relType": 1,
             "path": "\\"
+          },
+          {
+            "type": 5,
+            "name": "RadioBtnManager.js",
+            "action": 2,
+            "relType": 4,
+            "path": ""
           }
         ]
       },
@@ -119,6 +126,14 @@
             "action": 8,
             "relType": 1,
             "path": "Template\\",
+            "comment": ""
+          },
+          {
+            "type": 4,
+            "name": "button.stl",
+            "action": 8,
+            "relType": 1,
+            "path": "Source\\",
             "comment": ""
           }
         ]
@@ -226,6 +241,114 @@
                 "name": "qr-code.png",
                 "relType": 1,
                 "path": "\\"
+              },
+              {
+                "type": 8,
+                "name": "settings.png",
+                "relType": 1,
+                "path": "\\"
+              },
+              {
+                "type": 8,
+                "name": "face-smile-regular.svg",
+                "relType": 1,
+                "path": "\\"
+              },
+              {
+                "type": 8,
+                "name": "bell-regular.svg",
+                "relType": 1,
+                "path": "\\"
+              },
+              {
+                "type": 8,
+                "name": "ellipsis-solid.svg",
+                "relType": 1,
+                "path": "\\"
+              },
+              {
+                "type": 8,
+                "name": "user-solid.svg",
+                "relType": 1,
+                "path": "\\"
+              },
+              {
+                "type": 8,
+                "name": "comment-solid.svg",
+                "relType": 1,
+                "path": "\\"
+              },
+              {
+                "type": 8,
+                "name": "footer.png",
+                "relType": 1,
+                "path": "\\"
+              },
+              {
+                "type": 8,
+                "name": "ellipsis-solid2.svg",
+                "relType": 1,
+                "path": "\\"
+              },
+              {
+                "type": 8,
+                "name": "comment-solid2.svg",
+                "relType": 1,
+                "path": "\\"
+              },
+              {
+                "type": 8,
+                "name": "user-solid2.svg",
+                "relType": 1,
+                "path": "\\"
+              },
+              {
+                "type": 8,
+                "name": "square-regular.svg",
+                "relType": 1,
+                "path": "\\"
+              },
+              {
+                "type": 8,
+                "name": "minus-solid.svg",
+                "relType": 1,
+                "path": "\\"
+              },
+              {
+                "type": 8,
+                "name": "xmark-solid.svg",
+                "relType": 1,
+                "path": "\\"
+              },
+              {
+                "type": 8,
+                "name": "square-regular2.svg",
+                "relType": 1,
+                "path": "\\"
+              },
+              {
+                "type": 8,
+                "name": "minus-solid2.svg",
+                "relType": 1,
+                "path": "\\"
+              },
+              {
+                "type": 8,
+                "name": "xmark-solid2.svg",
+                "relType": 1,
+                "path": "\\"
+              },
+              {
+                "type": 8,
+                "name": "magnifying-glass-solid.svg",
+                "relType": 1,
+                "path": "\\"
+              },
+              {
+                "type": 8,
+                "name": "add-friend.png",
+                "relType": 1,
+                "path": "\\"
               }
             ]
           },
@@ -310,6 +433,28 @@
               {
                 "type": 3,
                 "name": "loginMainView.lay",
+                "action": 6,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              }
+            ]
+          },
+          {
+            "type": 1,
+            "name": "friend",
+            "children": [
+              {
+                "type": 5,
+                "name": "frienItemView.js",
+                "action": 9,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 3,
+                "name": "frienItemView.lay",
                 "action": 6,
                 "relType": 1,
                 "path": "Source\\",

@@ -11,3 +11,18 @@
     color: #d1d1d1 !important;
 }
 
+.side-menu-user
+{
+    background-image: url('../Assets/image/user-solid2.svg') !important;
+}
+
+.side-menu-comment
+{
+    background-image: url('../Assets/image/comment-solid2.svg') !important;
+}
+
+.side-menu-ellipsis
+{
+    background-image: url('../Assets/image/ellipsis-solid2.svg') !important;
+}
+

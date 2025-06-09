@@ -15,7 +15,7 @@ KakaoTalkApp = class KakaoTalkApp extends AApplication
 		super.onReady();
 
 		this.setMainContainer(new APage('main'))
-		this.mainContainer.open('Source/login/loginMainView.lay')
+		this.mainContainer.open('Source/mainView.lay')
 
 		//TODO:edit here
         this.connectServer()

@@ -61,7 +61,7 @@ loginMainView = class loginMainView extends AView
 	}
 
 
-     onLoginBtnClick(comp, info, e)
+    onLoginBtnClick(comp, info, e)
     {
 
         // 테스트중
@@ -81,13 +81,30 @@ loginMainView = class loginMainView extends AView
         (queryData)=>
         {
 
+            // 수신받는 데이터 확인
             queryData.printQueryData()
-            
-            let blockData = queryData.getBlockData('OutBlock1');
 
-            
+            let blockData = queryData.getBlockData('OutBlock1');
+        
+            // 서버 아이디 비밀번호 일치하면 페이지 전환
+            if (blockData[0].id === this.loginId.getText() && blockData[0].pw === this.loginPw.getText())
+            {
+              
+                let navi = new ANavigator('navigator');
+
+                // 페이지 등록
+                navi.registerPage('Source/MainView.lay', 'MainView');
+
+                // 페이지 전환
+                navi.goPage('MainView');
+            }
+            else
+            {
+               AToast.show("아이디 또는 비밀번호가 일치하지 않습니다.");
+            }
             
         })
+
         // // 네비게이터 생성
         // let navi = new ANavigator('navigator');
 

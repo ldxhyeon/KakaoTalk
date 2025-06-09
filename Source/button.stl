@@ -1,0 +1,8 @@
+{
+  "styleName": "button",
+  "items": {
+    "edit_here": "\r\n.edit_here\r\n{\r\n\t/* TODO:edit here */\r\n\r\n}\r\n",
+    "btn-bc": ".btn-bc\r\n{\r\n    background-color: transparent;\r\n}\r\n\r\n",
+    "side-icon": ".side-icon\r\n{\r\n    color: #5f5f5f;\r\n}\r\n\r\n"
+  }
+}

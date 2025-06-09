@@ -1,6 +1,13 @@
 {
   "styleName": "hover",
   "items": {
-    "edit_here": "\r\n.edit_here\r\n{\r\n\t/* TODO:edit here */\r\n\r\n}\r\n"
+    "edit_here": "\r\n.edit_here\r\n{\r\n\t/* TODO:edit here */\r\n\r\n}\r\n",
+    "side-user": ".side-user\r\n{\r\n    background-image: url('Assets/image/user-solid2.svg');\r\n    opacity: 0.6;\r\n}\r\n\r\n",
+    "side-comment": ".side-comment\r\n{\r\n    background-image: url('Assets/image/comment-solid2.svg');\r\n    opacity: 0.6;\r\n}\r\n\r\n",
+    "side-ellipsis": ".side-ellipsis\r\n{\r\n    background-image: url('Assets/image/ellipsis-solid2.svg');\r\n    opacity: 0.6;\r\n}\r\n\r\n",
+    "main-header-minus": ".main-header-minus\r\n{\r\n    background-image: url('Assets/image/minus-solid2.svg');\r\n}\r\n\r\n",
+    "main-header-square": ".main-header-square\r\n{\r\n    background-image: url('Assets/image/square-regular2.svg');\r\n}\r\n\r\n",
+    "main-header-cancle": ".main-header-cancle\r\n{\r\n    background-image: url('Assets/image/xmark-solid2.svg');\r\n}\r\n\r\n",
+    "friend-header-icon": ".friend-header-icon\r\n{\r\n}\r\n\r\n.friend-header-icon:hover\r\n{\r\n    background-color: #FCFCFC;\r\n}\r\n\r\n"
   }
 }
