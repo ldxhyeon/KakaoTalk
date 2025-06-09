@@ -65,13 +65,14 @@ loginMainView = class loginMainView extends AView
     {
 
         // 테스트중
-        theApp.qm.sendProcessByName('ac003', this.getContainerId(), null,
+        theApp.qm.sendProcessByName('ac001', this.getContainerId(), null,
 	
         //inblock function, 서버로 전송되기 바로 전에 호출되는 함수
         (queryData)=>
         {
             let blockData = queryData.getBlockData('InBlock1')
-            blockData[0].input1 = 'hello'
+            blockData[0].login_id = this.loginId.getText(); // 아이디
+		    blockData[0].login_pw = this.loginPw.getText(); // 비밀번호
             
             queryData.printQueryData()
         },
@@ -82,9 +83,9 @@ loginMainView = class loginMainView extends AView
 
             queryData.printQueryData()
             
-            //let blockData = queryData.getBlockData('OutBlock1')
+            let blockData = queryData.getBlockData('OutBlock1');
+
             
-            //this.outLbl.setText(blockData[0].output2)
             
         })
         // // 네비게이터 생성
