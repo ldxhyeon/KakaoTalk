@@ -105,14 +105,7 @@ LoginMainView = class LoginMainView extends AView
             
         })
 
-        // // 네비게이터 생성
-        // let navi = new ANavigator('navigator');
-
-        // // 페이지 등록
-        // navi.registerPage('Source/MainView.lay', 'MainView');
-
-        // // 페이지 전환
-        // navi.goPage('MainView');
+       
     }
 
     // test

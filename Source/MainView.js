@@ -25,7 +25,7 @@ MainView = class MainView extends AView
         // 탭뷰 설정
         this.tabView.addTab('친구', 'Source/friend/frienItemView.lay', 'friendTab');
         this.tabView.addTab('채팅', 'Source/chatting/ChattingView.lay', 'chatTab');
-	    this.tabView.addTab('더보기', 'Source/chatting/ChattingView.lay', 'moreTab');
+	    this.tabView.addTab('더보기', 'Source/blank/BlankView.lay', 'moreTab');
 
         this.tabView.selectTabById('friend').then(tab => {
 
