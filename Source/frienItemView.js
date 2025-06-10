@@ -32,7 +32,7 @@ FrienItemView = class FrienItemView extends AView
         {
             queryData.printQueryData();
 
-            // 서버에서 받은 리스트 데이터를 가져옵니다.
+            // 서버에서 받은 리스트 데이터
             let listData = queryData.getBlockData('OutBlock1');
 
             // 리스트뷰에 받아온 값 추가

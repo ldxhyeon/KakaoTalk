@@ -1,0 +1,8 @@
+{
+  "styleName": "label",
+  "items": {
+    "edit_here": "\r\n.edit_here\r\n{\r\n\t/* TODO:edit here */\r\n\r\n}\r\n",
+    "chatting-label": ".chatting-label {\r\n}\r\n\r\n.chatting-label::after {\r\n    content: \"\";\r\n    position: absolute;\r\n    right: -6px; /* 오른쪽 말풍선 기준 */\r\n    top: 10px;\r\n    width: 0;\r\n    height: 0;\r\n    border-top: 6px solid transparent;\r\n    border-bottom: 6px solid transparent;\r\n    border-left: 6px solid rgb(255, 235, 51); /* 말풍선 배경색과 동일 */\r\n}\r\n\r\n",
+    "chatting-label-user": ".chatting-label-user\r\n{\r\n}\r\n\r\n.chatting-label-user::after {\r\n    content: \"\";\r\n    position: absolute;\r\n    left: -6px;\r\n    top: 4px; /* ↓ 이 값을 줄이면 위로 붙습니다 */\r\n    width: 0;\r\n    height: 0;\r\n    border-top: 6px solid transparent;\r\n    border-bottom: 6px solid transparent;\r\n    border-right: 6px solid rgb(255, 255, 255);\r\n}\r\n\r\n\r\n"
+  }
+}

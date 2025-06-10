@@ -13,7 +13,11 @@ ChattingContent = class ChattingContent extends AView
 	{
 		super.init(context, evtListener)
 
-		//TODO:edit here
+		this.listData = [
+            { 
+              name : '안녕하세요'
+            },
+        ]
 
 	}
 
@@ -21,8 +25,9 @@ ChattingContent = class ChattingContent extends AView
 	{
 		super.onInitDone()
 
-		//TODO:edit here
-
+        // 리스트뷰에 두 개의 아이템 추가
+		this.contentList.addItem('Source/chatting/chatItem/ChattingMeItem.lay', this.listData);
+		this.contentList.addItem('Source/chatting/chatItem/ChattingUserItem.lay', this.listData);
 	}
 
 	onActiveDone(isFirst)
@@ -33,5 +38,11 @@ ChattingContent = class ChattingContent extends AView
 
 	}
 
+
+	onChattingCancleClick(comp, info, e)
+    {
+        // 윈도우 창 닫기
+        this.getContainer().close();
+    }
 }
 

@@ -66,3 +66,11 @@
   background-color: #EDEDED !important;
 }
 
+.chatting-header-icon
+{
+}
+
+.chatting-header-icon:hover {
+    background-color: #B4C8D9 !important;
+}
+
