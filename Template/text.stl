@@ -1,0 +1,7 @@
+{
+  "styleName": "text",
+  "items": {
+    "edit_here": "\r\n.edit_here\r\n{\r\n\t/* TODO:edit here */\r\n\r\n}\r\n",
+    "message-content": ".message-content\r\n{\r\n    word-wrap: break-word;      \r\n    overflow-wrap: break-word; \r\n    white-space: normal;\r\n    line-height: 1.5;\r\n}\r\n\r\n\r\n"
+  }
+}

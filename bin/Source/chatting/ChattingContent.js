@@ -13,15 +13,26 @@ ChattingContent = class ChattingContent extends AView
         // 채팅 유저 정보
         let data = this.getContainer().getData();
         this.setData(data);
-
-        // console.log(data);
-
-        // // 유저 정보 보내기
-        // // this.userInfo = [{
-        // //     userName: data.userName,
-        // //     userImage: data.userImage
-        // // }];
         
+        console.log(data);
+
+        // 유저 정보 보내기
+        this.userInfo = [{
+            userName: data.userName,
+            userImage: data.userImage
+        }];
+
+
+
+        // 엔터 키 이벤트 리스너 추가
+        this.messageContent.get$ele().on('keydown', (e) => {
+            if (e.key === 'Enter') {
+                e.preventDefault(); // 기본 엔터 동작 방지
+                this.onSendMessageClick();
+            }
+        });
+
+       
 
        
     }
@@ -35,7 +46,16 @@ ChattingContent = class ChattingContent extends AView
 
         (queryData)=>
         {
+
+            let userInfo = queryData.getBlockData('InBlock1');
+            userInfo[0].image = this.data.userImage;
+            userInfo[0].name = this.data.userName;
+
+            console.log(userInfo);
+
+
             queryData.printQueryData()
+
         },
         
         async (queryData)=>
@@ -53,11 +73,9 @@ ChattingContent = class ChattingContent extends AView
                 }
             }
 
-            // 리스트뷰에 두 개의 아이템 추가
-        })
-        
+            this.contentList.scrollToBottom();
 
-        
+        })
 	}
 
 	onActiveDone(isFirst)
@@ -103,7 +121,27 @@ ChattingContent = class ChattingContent extends AView
         async (queryData)=>
         {
             queryData.printQueryData();
+
+            let blockData = queryData.getBlockData('OutBlock1');
+            // 메시지 변수
+            let myMessage = blockData[0].message;
+
+            // 메시지 있으면 추가하는데
+            // data랑 겹치니 message 키 값 설정
+            if(myMessage) {
+                await this.contentList.addItem('Source/chatting/chatItem/ChattingMeItem.lay', [{ message: myMessage }]);
+            }
+
+            // 보내고 초기화
+            this.messageContent.setText('');
+
+            this.contentList.scrollToBottom();
+            
         })
 	}
+
+
+   
+
 }
 

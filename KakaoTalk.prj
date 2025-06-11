@@ -158,6 +158,14 @@
             "relType": 1,
             "path": "Template\\",
             "comment": ""
+          },
+          {
+            "type": 4,
+            "name": "text.stl",
+            "action": 8,
+            "relType": 1,
+            "path": "Template\\",
+            "comment": ""
           }
         ]
       },

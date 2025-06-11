@@ -60,5 +60,6 @@ MainView = class MainView extends AView
         this.tabView.selectTabById(comp.getComponentId());
 
 	}
+
 }
 

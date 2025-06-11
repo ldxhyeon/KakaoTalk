@@ -1,0 +1,15 @@
+
+.edit_here
+{
+	/* TODO:edit here */
+
+}
+
+.message-content
+{
+    word-wrap: break-word !important;      
+    overflow-wrap: break-word !important; 
+    white-space: normal !important;
+    line-height: 1.5 !important;
+}
+

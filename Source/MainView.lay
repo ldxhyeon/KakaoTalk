@@ -1,4 +1,4 @@
-<div data-base="AView" data-class="MainView" class="AView-Style" style="left: 0px; top: 0px; width: 100%; height: 100%; position: relative; background-color: rgb(255, 255, 255);" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;AFlexLayout&quot;,&quot;AButton&quot;,&quot;ATabView&quot;,&quot;AImage&quot;]}" data-browser-height="435" data-browser-width="470"
+<div data-base="AView" data-class="MainView" class="AView-Style" style="left: 0px; top: 0px; width: 100%; height: 100%; position: relative; background-color: rgb(255, 255, 255);" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;AFlexLayout&quot;,&quot;AButton&quot;,&quot;ATabView&quot;,&quot;AImage&quot;,&quot;AWebView&quot;]}" data-browser-height="455" data-browser-width="370" data-max-aimage="2"
     ><div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 100%; height: 100%; align-items: stretch; position: relative; left: 0px; background-color: rgba(0, 0, 0, 0); top: 0px;"
         ><div style="position: relative; box-sizing: border-box;"
             ><div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 80px; height: 83%; align-items: stretch; position: relative; left: 0px; top: 0px; background-color: rgb(237, 237, 237); flex-direction: column; padding-top: 40px; padding-bottom: 30px; justify-content: space-between;"
@@ -60,6 +60,9 @@
         ><div style="position: relative; box-sizing: border-box;"
             ><div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px;"
                 ><img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; cursor: pointer;" src="Assets/image/footer.png"
+                ><div data-base="AWebView" data-class="AWebView" class="AWebView-Style" style="width: 100%; height: 100%; left: 0px; top: 0px; position: relative;"
+                    ><iframe frameborder="0" scrolling="auto"></iframe
+                ></div
             ></div
         ></div
     ></div
