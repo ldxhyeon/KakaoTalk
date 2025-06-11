@@ -1,49 +1,7 @@
-<div data-base="AView" data-class="ChattingMeItem" class="AView-Style" style="left: 0px; top: 0px; width: 100%; height: auto; background-color: rgb(239, 239, 239);" data-browser-height="640" data-browser-width="740" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;AFlexLayout&quot;,&quot;ALabel&quot;]}" data-style=""
-    ><div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 100%; height: auto; align-items: stretch; left: 0px; top: 0px; position: relative; flex-direction: column; gap: 10px; padding: 10px; background-color: rgb(186, 206, 224);"
+<div data-base="AView" data-class="ChattingMeItem" class="AView-Style" style="left: 0px; top: 0px; width: 100%; height: auto; background-color: rgb(239, 239, 239);" data-browser-height="110" data-browser-width="760" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;AFlexLayout&quot;,&quot;ALabel&quot;]}" data-style=""
+    ><div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 100%; height: auto; align-items: stretch; left: 0px; top: 0px; position: relative; flex-direction: column; gap: 10px; padding-right: 10px; padding-left: 10px; background-color: rgb(186, 206, 224); padding-bottom: 5px;" data-style=""
         ><div style="position: relative; box-sizing: border-box; align-self: flex-end;"
             ><label data-base="ALabel" data-class="ALabel" class="ALabel-Style chatting-label" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; padding: 7px; background-color: rgb(255, 235, 51); border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(255, 235, 51); font-size: 13px; font-family: KakaoSmallSans-Light;" id="ChattingMeItem--meContent" data-style="chatting-label">안녕하세요 이동현입니다.</label
-        ></div
-        ><div style="position: relative; box-sizing: border-box; align-self: flex-end;"
-            ><label data-base="ALabel" data-class="ALabel" class="ALabel-Style chatting-label" style="width: auto; height: auto; position: relative; padding: 7px; background-color: rgb(255, 235, 51); border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(255, 235, 51); font-size: 13px; font-family: KakaoSmallSans-Light; left: 0px; top: 0px;" id="" data-style="chatting-label">안녕하세요 이동현입니다.</label
-        ></div
-        ><div style="position: relative; box-sizing: border-box; align-self: flex-end;"
-            ><label data-base="ALabel" data-class="ALabel" class="ALabel-Style chatting-label" style="width: auto; height: auto; position: relative; padding: 7px; background-color: rgb(255, 235, 51); border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(255, 235, 51); font-size: 13px; font-family: KakaoSmallSans-Light; left: 0px; top: 0px;" id="" data-style="chatting-label">안녕하세요 이동현입니다.</label
-        ></div
-        ><div style="position: relative; box-sizing: border-box; align-self: flex-end;"
-            ><label data-base="ALabel" data-class="ALabel" class="ALabel-Style chatting-label" style="width: auto; height: auto; position: relative; padding: 7px; background-color: rgb(255, 235, 51); border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(255, 235, 51); font-size: 13px; font-family: KakaoSmallSans-Light; left: 0px; top: 0px;" id="" data-style="chatting-label">안녕하세요 이동현입니다.</label
-        ></div
-        ><div style="position: relative; box-sizing: border-box; align-self: flex-end;"
-            ><label data-base="ALabel" data-class="ALabel" class="ALabel-Style chatting-label" style="width: auto; height: auto; position: relative; padding: 7px; background-color: rgb(255, 235, 51); border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(255, 235, 51); font-size: 13px; font-family: KakaoSmallSans-Light; left: 0px; top: 0px;" id="" data-style="chatting-label">안녕하세요 이동현입니다.</label
-        ></div
-        ><div style="position: relative; box-sizing: border-box; align-self: flex-end;"
-            ><label data-base="ALabel" data-class="ALabel" class="ALabel-Style chatting-label" style="width: auto; height: auto; position: relative; padding: 7px; background-color: rgb(255, 235, 51); border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(255, 235, 51); font-size: 13px; font-family: KakaoSmallSans-Light; left: 0px; top: 0px;" id="" data-style="chatting-label">안녕하세요 이동현입니다.</label
-        ></div
-        ><div style="position: relative; box-sizing: border-box; align-self: flex-end;"
-            ><label data-base="ALabel" data-class="ALabel" class="ALabel-Style chatting-label" style="width: auto; height: auto; position: relative; padding: 7px; background-color: rgb(255, 235, 51); border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(255, 235, 51); font-size: 13px; font-family: KakaoSmallSans-Light; left: 0px; top: 0px;" id="" data-style="chatting-label">안녕하세요 이동현입니다.</label
-        ></div
-        ><div style="position: relative; box-sizing: border-box; align-self: flex-end;"
-            ><label data-base="ALabel" data-class="ALabel" class="ALabel-Style chatting-label" style="width: auto; height: auto; position: relative; padding: 7px; background-color: rgb(255, 235, 51); border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(255, 235, 51); font-size: 13px; font-family: KakaoSmallSans-Light; left: 0px; top: 0px;" id="" data-style="chatting-label">안녕하세요 이동현입니다.</label
-        ></div
-        ><div style="position: relative; box-sizing: border-box; align-self: flex-end;"
-            ><label data-base="ALabel" data-class="ALabel" class="ALabel-Style chatting-label" style="width: auto; height: auto; position: relative; padding: 7px; background-color: rgb(255, 235, 51); border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(255, 235, 51); font-size: 13px; font-family: KakaoSmallSans-Light; left: 0px; top: 0px;" id="" data-style="chatting-label">안녕하세요 이동현입니다.</label
-        ></div
-        ><div style="position: relative; box-sizing: border-box; align-self: flex-end;"
-            ><label data-base="ALabel" data-class="ALabel" class="ALabel-Style chatting-label" style="width: auto; height: auto; position: relative; padding: 7px; background-color: rgb(255, 235, 51); border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(255, 235, 51); font-size: 13px; font-family: KakaoSmallSans-Light; left: 0px; top: 0px;" id="" data-style="chatting-label">안녕하세요 이동현입니다.</label
-        ></div
-        ><div style="position: relative; box-sizing: border-box; align-self: flex-end;"
-            ><label data-base="ALabel" data-class="ALabel" class="ALabel-Style chatting-label" style="width: auto; height: auto; position: relative; padding: 7px; background-color: rgb(255, 235, 51); border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(255, 235, 51); font-size: 13px; font-family: KakaoSmallSans-Light; left: 0px; top: 0px;" id="" data-style="chatting-label">안녕하세요 이동현입니다.</label
-        ></div
-        ><div style="position: relative; box-sizing: border-box; align-self: flex-end;"
-            ><label data-base="ALabel" data-class="ALabel" class="ALabel-Style chatting-label" style="width: auto; height: auto; position: relative; padding: 7px; background-color: rgb(255, 235, 51); border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(255, 235, 51); font-size: 13px; font-family: KakaoSmallSans-Light; left: 0px; top: 0px;" id="" data-style="chatting-label">안녕하세요 이동현입니다.</label
-        ></div
-        ><div style="position: relative; box-sizing: border-box; align-self: flex-end;"
-            ><label data-base="ALabel" data-class="ALabel" class="ALabel-Style chatting-label" style="width: auto; height: auto; position: relative; padding: 7px; background-color: rgb(255, 235, 51); border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(255, 235, 51); font-size: 13px; font-family: KakaoSmallSans-Light; left: 0px; top: 0px;" id="" data-style="chatting-label">안녕하세요 이동현입니다.</label
-        ></div
-        ><div style="position: relative; box-sizing: border-box; align-self: flex-end;"
-            ><label data-base="ALabel" data-class="ALabel" class="ALabel-Style chatting-label" style="width: auto; height: auto; position: relative; padding: 7px; background-color: rgb(255, 235, 51); border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(255, 235, 51); font-size: 13px; font-family: KakaoSmallSans-Light; left: 0px; top: 0px;" id="" data-style="chatting-label">안녕하세요 이동현입니다.</label
-        ></div
-        ><div style="position: relative; box-sizing: border-box; align-self: flex-end;"
-            ><label data-base="ALabel" data-class="ALabel" class="ALabel-Style chatting-label" style="width: auto; height: auto; position: relative; padding: 7px; background-color: rgb(255, 235, 51); border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(255, 235, 51); font-size: 13px; font-family: KakaoSmallSans-Light; left: 0px; top: 0px;" id="" data-style="chatting-label">안녕하세요 이동현입니다.</label
         ></div
     ></div
 ></div>

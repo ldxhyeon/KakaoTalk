@@ -5,8 +5,6 @@ ChattingListItem = class ChattingListItem extends AView
 	{
 		super()
 
-		//TODO:edit here
-
 	}
 
 	init(context, evtListener)
@@ -36,6 +34,7 @@ ChattingListItem = class ChattingListItem extends AView
 
     setData(data)
     {
+
         this.userImg.setImage(data.img);
         this.userName.setText(data.name);
         this.userContent.setText(data.content);
@@ -69,8 +68,17 @@ ChattingListItem = class ChattingListItem extends AView
 
 	onListItemDblclick(comp, info, e)
 	{
+        
+        let userName = this.userName.getText();
+        let userImage = this.userImg.getImage();
+
+        let userInfo = ({userName, userImage})
+
 		let wnd = new AWindow('chatDetailWindow');
+        wnd.setData(userInfo); // 데이터를 설정합니다.
 		wnd.openFull('Source/chatting/ChattingContent.lay');
+
+
 	}
 }
 

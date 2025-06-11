@@ -1,0 +1,28 @@
+{
+	"name": "ChattingContent",
+	"desc": "채팅 내용",
+	"queryType": ".JSON",
+	"input":
+	{
+		"InBlock1":
+		{
+			"format":
+			[
+				["고유아이디","uid",0,0,"char",0,0]
+			]
+		}
+	},
+	
+	"output":
+	{
+		"OutBlock1":
+		{
+			"format":
+			[
+				["이미지","image",0,0,"char",0,0],
+				["이름","name",0,0,"char",0,0],
+				["내용","content",0,0,"char",0,0]
+			]
+		}
+	}
+}

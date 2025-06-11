@@ -1,0 +1,30 @@
+{
+	"name": "chattingList",
+	"desc": "채팅 목록",
+	"queryType": ".JSON",
+	"input":
+	{
+		"InBlock1":
+		{
+			"format":
+			[
+				["고유아이디","uid",0,0,"char",0,0]
+			]
+		}
+	},
+	
+	"output":
+	{
+		"OutBlock1":
+		{
+			"format":
+			[
+				["이미지","image",0,0,"char",0,0],
+				["이름","name",0,0,"char",0,0],
+				["내용","content",0,0,"char",0,0],
+				["상태","status",0,0,"char",0,0],
+				["메시지 수","status",0,0,"number",0,0]
+			]
+		}
+	}
+}

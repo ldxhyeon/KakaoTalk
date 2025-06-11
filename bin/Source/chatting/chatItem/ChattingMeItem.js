@@ -33,12 +33,10 @@ ChattingMeItem = class ChattingMeItem extends AView
 
 	}
 
-     setData(data)
+    setData(data)
     {
-        this.meContent.setText(data.name);
-
-
         this.data = data;
+        this.meContent.setText(data.content);
     }
 
 }

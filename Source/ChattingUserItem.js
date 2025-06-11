@@ -21,8 +21,6 @@ ChattingUserItem = class ChattingUserItem extends AView
 	{
 		super.onInitDone()
 
-		//TODO:edit here
-
 	}
 
 	onActiveDone(isFirst)
@@ -35,7 +33,10 @@ ChattingUserItem = class ChattingUserItem extends AView
 
     setData(data)
     {
-        this.userContent.setText(data.name);
+        console.log(data);
+        this.userImg.setImage(data.image);
+        this.userName.setText(data.name);
+        this.userContent.setText(data.content);
 
 
         this.data = data;
