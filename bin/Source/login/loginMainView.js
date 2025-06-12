@@ -105,7 +105,7 @@ LoginMainView = class LoginMainView extends AView
             if (blockData[0].id === this.loginId.getText() && blockData[0].pw === this.loginPw.getText())
             {
               
-               let navi = ANavigator.find("navigator");
+                let navi = ANavigator.find("navigator");
                   
                 // 페이지 전환
                 navi.goPage('MainView');

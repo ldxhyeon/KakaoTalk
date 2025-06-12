@@ -18,13 +18,10 @@ KakaoTalkApp = class KakaoTalkApp extends AApplication
 		// this.mainContainer.open('Source/login/LoginMainView.lay')
 
         let navi = new ANavigator('navigator');
-
-                // 페이지 등록
         navi.registerPage('Source/MainView.lay', 'MainView');
         navi.registerPage('Source/login/LoginMainView.lay', 'loginView');
 
         navi.goPage('loginView');
-
 
 
 		//TODO:edit here
