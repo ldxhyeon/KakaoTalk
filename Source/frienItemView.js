@@ -25,18 +25,18 @@ FrienItemView = class FrienItemView extends AView
 
         (queryData)=>
         {
-            queryData.printQueryData()
+            // queryData.printQueryData()
         },
         
         (queryData)=>
         {
-            queryData.printQueryData();
+            // queryData.printQueryData();
 
             // 서버에서 받은 리스트 데이터
-            let listData = queryData.getBlockData('OutBlock1');
+            // let listData = queryData.getBlockData('OutBlock1');
 
             // 리스트뷰에 받아온 값 추가
-            this.friendListView.addItem('Source/friend/FriendListItem.lay', listData);
+            // this.friendListView.addItem('Source/friend/FriendListItem.lay', listData);
         })
 
         

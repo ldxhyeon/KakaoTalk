@@ -33853,4 +33853,4 @@ afc.scriptMap["Library/HttpIO.js"] = true;
 afc.scriptMap["Library/WebQueryData.js"] = true;
 afc.scriptMap["Library/WebQueryManager.js"] = true;
 afc.scriptMap["Library/RadioBtnManager.js"] = true;
-afc.scriptMap["Library/MyFormat.js"] = true;
+afc.scriptMap["Source/MyFormat.js"] = true;

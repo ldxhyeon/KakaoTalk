@@ -24,18 +24,18 @@ ChattingView = class ChattingView extends AView
 
         (queryData)=>
         {
-            queryData.printQueryData()
+            // queryData.printQueryData()
         },
         
         (queryData)=>
         {
-            queryData.printQueryData();
+            // queryData.printQueryData();
 
-            // 서버에서 받은 리스트 데이터
-            let listData = queryData.getBlockData('OutBlock1');
+            // // 서버에서 받은 리스트 데이터
+            // let listData = queryData.getBlockData('OutBlock1');
 
-            // 리스트뷰에 받아온 값 추가
-            this.chattingListView.addItem('Source/chatting/ChattingListItem.lay', listData);
+            // // 리스트뷰에 받아온 값 추가
+            // this.chattingListView.addItem('Source/chatting/ChattingListItem.lay', listData);
         })
 
 

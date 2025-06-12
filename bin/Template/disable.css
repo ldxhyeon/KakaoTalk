@@ -26,3 +26,9 @@
     background-image: url('../Assets/image/ellipsis-solid2.svg') !important;
 }
 
+.send-btn
+{
+    background-color: #f2f2f2 !important;
+    color: #aaa !important;
+}
+

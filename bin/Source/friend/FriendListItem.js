@@ -33,14 +33,14 @@ FriendListItem = class FriendListItem extends AView
 
 	}
 
-    setData(data)
-    {
-        this.userImg.setImage(data.img);
-        this.userName.setText(data.name);
-        this.userState.setText(data.state);
+    // setData(data)
+    // {
+    //     this.userImg.setImage(data.img);
+    //     this.userName.setText(data.name);
+    //     this.userState.setText(data.state);
 
-        this.data = data;
-    }
+    //     this.data = data;
+    // }
 
 
 

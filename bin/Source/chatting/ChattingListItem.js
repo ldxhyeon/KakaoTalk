@@ -34,7 +34,6 @@ ChattingListItem = class ChattingListItem extends AView
 
     setData(data)
     {
-
         this.userImg.setImage(data.img);
         this.userName.setText(data.name);
         this.userContent.setText(data.content);

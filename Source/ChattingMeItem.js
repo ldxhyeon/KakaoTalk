@@ -35,11 +35,11 @@ ChattingMeItem = class ChattingMeItem extends AView
 
     setData(data)
     {
-        console.log(data);
         // 서버에 있는 기존 내용 가져오기
         this.meContent.setText(data.content);
         // 추가된 메시지 내용 적용
         this.meContent.setText(data.message);
+        this.meTime.setText(data.time);
         this.data = data;
     }
 

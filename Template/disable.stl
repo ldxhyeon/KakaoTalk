@@ -5,6 +5,7 @@
     "login-btn": ".login-btn\r\n{\r\n    background-color: #f6f6f6;\r\n    color: #d1d1d1;\r\n}\r\n\r\n",
     "side-menu-user": ".side-menu-user\r\n{\r\n    background-image: url('Assets/image/user-solid2.svg');\r\n}\r\n\r\n",
     "side-menu-comment": ".side-menu-comment\r\n{\r\n    background-image: url('Assets/image/comment-solid2.svg');\r\n}\r\n\r\n",
-    "side-menu-ellipsis": ".side-menu-ellipsis\r\n{\r\n    background-image: url('Assets/image/ellipsis-solid2.svg');\r\n}\r\n\r\n"
+    "side-menu-ellipsis": ".side-menu-ellipsis\r\n{\r\n    background-image: url('Assets/image/ellipsis-solid2.svg');\r\n}\r\n\r\n",
+    "send-btn": ".send-btn\r\n{\r\n    background-color: #f2f2f2;\r\n    color: #aaa;\r\n}\r\n\r\n"
   }
 }

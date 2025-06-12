@@ -14,8 +14,18 @@ KakaoTalkApp = class KakaoTalkApp extends AApplication
 	{
 		super.onReady();
 
-		this.setMainContainer(new APage('main'))
-		this.mainContainer.open('Source/MainView.lay')
+		// this.setMainContainer(new APage('main'))
+		// this.mainContainer.open('Source/login/LoginMainView.lay')
+
+        let navi = new ANavigator('navigator');
+
+                // 페이지 등록
+        navi.registerPage('Source/MainView.lay', 'MainView');
+        navi.registerPage('Source/login/LoginMainView.lay', 'loginView');
+
+        navi.goPage('loginView');
+
+
 
 		//TODO:edit here
         this.connectServer()

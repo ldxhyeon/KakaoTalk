@@ -19,6 +19,7 @@
 	<link rel="stylesheet" href="Template/Overflow.css"/>
 	<link rel="stylesheet" href="Template/label.css"/>
 	<link rel="stylesheet" href="Template/text.css"/>
+	<link rel="stylesheet" href="Template/outline.css"/>
 
 
 
@@ -44,6 +45,7 @@
         "queryFormat": "qry",
         "scaleVal": 1,
         "userScalable": false,
+        "responsiveTest": "",
         "tabletMinWidth": 500,
         "flavor": "common"
     },
@@ -55,12 +57,11 @@
     
     document.addEventListener("DOMContentLoaded", () => 
     {
+		if(window._version) _version.setFileVersion();
 		afc.import("Source/KakaoTalkApp.js");
 
         afc.scriptReady(() =>
         {
-            if(window._version) _version.setFileVersion();
-            
             window.theApp = new window["KakaoTalkApp"]();
             window.theApp.isLoadTheme = false;
             

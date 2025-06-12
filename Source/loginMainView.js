@@ -13,7 +13,22 @@ LoginMainView = class LoginMainView extends AView
 	{
 		super.init(context, evtListener)
 
-		//TODO:edit here
+
+        // 아이디 입력창에 엔터 이벤트
+        this.loginId.get$ele().on('keydown', (e) => {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                this.onLoginBtnClick();
+            }
+        });
+
+        // 비밀번호 입력창에 엔터 이벤트
+        this.loginPw.get$ele().on('keydown', (e) => {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                this.onLoginBtnClick();
+            }
+        });
 
 	}
 
@@ -90,11 +105,8 @@ LoginMainView = class LoginMainView extends AView
             if (blockData[0].id === this.loginId.getText() && blockData[0].pw === this.loginPw.getText())
             {
               
-                let navi = new ANavigator('navigator');
-
-                // 페이지 등록
-                navi.registerPage('Source/MainView.lay', 'MainView');
-
+               let navi = ANavigator.find("navigator");
+                  
                 // 페이지 전환
                 navi.goPage('MainView');
             }

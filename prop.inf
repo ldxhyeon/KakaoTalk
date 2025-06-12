@@ -9,12 +9,13 @@
     "tabletMinWidth": 500,
     "userScalable": false,
     "layBrowserInfo": [
-      640,
-      800
+      "640",
+      "800"
     ],
     "flavor": "common",
     "isPort": true,
-    "scaleValue": 100
+    "scaleValue": 100,
+    "responsiveTest": ""
   },
   "build": {
     "bridgeName": "none",

@@ -33,10 +33,10 @@ ChattingUserItem = class ChattingUserItem extends AView
 
     setData(data)
     {
-        console.log(data);
         this.userImg.setImage(data.image);
         this.userName.setText(data.name);
         this.userContent.setText(data.content);
+        this.userTime.setText(data.time);
 
 
         this.data = data;
