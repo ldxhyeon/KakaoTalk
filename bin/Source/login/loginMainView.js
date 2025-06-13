@@ -30,6 +30,27 @@ LoginMainView = class LoginMainView extends AView
             }
         });
 
+
+        function normalFn() {
+            return '즉시 반환';
+        }
+
+        async function asyncFn() {
+            return '나중에 반환';
+        }
+
+        console.log(normalFn());  // '즉시 반환'
+        console.log(asyncFn());   // Promise { '나중에 반환' }
+
+
+        async function run() {
+    const result = await asyncFn();
+    console.log(result);  // '나중에 반환'
+}
+run();
+
+
+
 	}
 
 	onInitDone()

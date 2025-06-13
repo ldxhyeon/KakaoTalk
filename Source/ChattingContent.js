@@ -37,7 +37,7 @@ ChattingContent = class ChattingContent extends AView
        
     }
 
-	async onInitDone()
+	onInitDone()
 	{
 		super.onInitDone()
 
@@ -71,7 +71,7 @@ ChattingContent = class ChattingContent extends AView
                 }
             }
 
-            this.contentList.scrollToBottom();
+            // this.contentList.scrollToBottom();
 
         })
 	}
