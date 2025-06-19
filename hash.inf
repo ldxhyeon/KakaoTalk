@@ -1,6 +1,6 @@
 {
 	"changed": [
-		"C:\\TraningProject\\KakaoTalk\\bin\\Source\\login\\LoginMainView.js"
+		"C:\\TraningProject\\KakaoTalk\\bin\\Source\\friend\\FriendListItem.html"
 	],
 	"version": "4.2.2",
 	"C:\\TraningProject\\KakaoTalk\\Framework\\afc\\library\\jquery-core.js": 1749423909587.668,
@@ -269,7 +269,7 @@
 	"C:\\TraningProject\\KakaoTalk\\Source\\FrienItemView.js": 1749769265062.007,
 	"C:\\TraningProject\\KakaoTalk\\Source\\FrienItemView.lay": 1749769265073.1877,
 	"C:\\TraningProject\\KakaoTalk\\Source\\FriendListItem.js": 1749683920027.725,
-	"C:\\TraningProject\\KakaoTalk\\Source\\FriendListItem.lay": 1749769265040.125,
+	"C:\\TraningProject\\KakaoTalk\\Source\\FriendListItem.lay": 1750316366651.1106,
 	"C:\\TraningProject\\KakaoTalk\\Template\\Overflow.stl": 1749683389555.2432,
 	"C:\\TraningProject\\KakaoTalk\\Source\\ChattingView.js": 1749770457858.511,
 	"C:\\TraningProject\\KakaoTalk\\Source\\ChattingView.lay": 1749770282613.3496,
