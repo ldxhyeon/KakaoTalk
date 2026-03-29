@@ -1,5 +1,11 @@
 {
+<<<<<<< HEAD
 	"changed": [],
+=======
+	"changed": [
+		"C:\\TraningProject\\KakaoTalk\\bin\\Source\\friend\\FriendListItem.html"
+	],
+>>>>>>> bd2783aaf883c524424417f808202cc22c0a955f
 	"version": "4.2.2",
 	"C:\\TraningProject\\KakaoTalk\\Framework\\afc\\library\\jquery-core.js": 1749468977845.6838,
 	"C:\\TraningProject\\KakaoTalk\\Framework\\afc\\library\\jquery-ui.js": 1749468977846.681,
@@ -261,6 +267,7 @@
 	"C:\\TraningProject\\KakaoTalk\\\\magnifying-glass-solid.svg": 1749468978376.6687,
 	"C:\\TraningProject\\KakaoTalk\\\\add-friend.png": 1749468978058.2676,
 	"C:\\Users\\ldh\\AppData\\Local\\Programs\\SpiderGen4\\resources\\app\\bin\\Runner\\SpiderServer\\..\\..\\Library\\RadioBtnManager.js": 1741806750000,
+<<<<<<< HEAD
 	"C:\\TraningProject\\KakaoTalk\\\\myprofile.jpeg": 1749469541052.889,
 	"C:\\TraningProject\\KakaoTalk\\\\chevron-right-solid.svg": 1749470429567.6902,
 	"C:\\TraningProject\\KakaoTalk\\\\defailt-profile.jpeg": 1749470354110.9797,
@@ -273,6 +280,20 @@
 	"C:\\TraningProject\\KakaoTalk\\Source\\ChattingView.lay": 1749962263002.9678,
 	"C:\\TraningProject\\KakaoTalk\\Source\\BlankView.js": 1749550607601.4143,
 	"C:\\TraningProject\\KakaoTalk\\Source\\BlankView.lay": 1749550607601.4143,
+=======
+	"C:\\TraningProject\\KakaoTalk\\\\myprofile.jpeg": 1749510443498.2385,
+	"C:\\TraningProject\\KakaoTalk\\\\chevron-right-solid.svg": 1749510443475.9646,
+	"C:\\TraningProject\\KakaoTalk\\\\defailt-profile.jpeg": 1749510443476.986,
+	"C:\\TraningProject\\KakaoTalk\\Source\\FrienItemView.js": 1749769265062.007,
+	"C:\\TraningProject\\KakaoTalk\\Source\\FrienItemView.lay": 1749769265073.1877,
+	"C:\\TraningProject\\KakaoTalk\\Source\\FriendListItem.js": 1749683920027.725,
+	"C:\\TraningProject\\KakaoTalk\\Source\\FriendListItem.lay": 1750316366651.1106,
+	"C:\\TraningProject\\KakaoTalk\\Template\\Overflow.stl": 1749683389555.2432,
+	"C:\\TraningProject\\KakaoTalk\\Source\\ChattingView.js": 1749770457858.511,
+	"C:\\TraningProject\\KakaoTalk\\Source\\ChattingView.lay": 1749770282613.3496,
+	"C:\\TraningProject\\KakaoTalk\\Source\\BlankView.js": 1749512722563.5476,
+	"C:\\TraningProject\\KakaoTalk\\Source\\BlankView.lay": 1749512787373.7046,
+>>>>>>> bd2783aaf883c524424417f808202cc22c0a955f
 	"C:\\TraningProject\\KakaoTalk\\\\chat_plus.PNG": 1735273638000,
 	"C:\\TraningProject\\KakaoTalk\\\\openchat.svg": 1730247866000,
 	"C:\\TraningProject\\KakaoTalk\\\\comments-regular.svg": 1749550607636.321,
